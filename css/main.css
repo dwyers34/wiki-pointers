@@ -1,0 +1,58 @@
+@font-face{
+  font-family: "cinzel-black";
+  src:url("../fonts/cinzel-black-webfont.woff2") format("woff2"),
+    url("../fonts/cinzel-black-webfont.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;}
+  @font-face{
+    font-family: "cinzel-regular";
+    src:url("../fonts/cinzel-regular-webfont.woff") format("woff"),
+    url("../fonts/cinzel-regular-webfont.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+  }
+  @font-face{
+    font-family:"cinzel-bold";
+    src:url("../fonts/cinzel-bold-webfont.woff") format("woff"),
+    url("../fonts/cinzel-bold-webfont.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+}
+body{
+  background-color:#c93;
+  margin-left:150px;
+  margin-right:150px;
+}
+max-width{
+max-width: 60em;
+margin: 20%;
+}
+h1{
+  font: normal 4em/1.1 "cinzel-black";
+  color:#000;
+  text-align:center;
+}
+a{
+  font:normal 1.5em/1.1 "cinzel-bold"
+  color: #fff;
+}
+ul{
+  font-family: "trebuchet ms", sans-serif;
+  color:#000;
+}
+p{
+  font-family:"trebuchet ms", sans-serif;
+  color:#000;
+}
+h2{
+  font: normal 2em/1.1 "cinzel-bold","arial black", sans-serif;
+  color:#000;
+}
+h3{
+  font: normal 1.5em/1.1 "cinzel-bold","tahoma", sans-serif;
+  color:#000;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
